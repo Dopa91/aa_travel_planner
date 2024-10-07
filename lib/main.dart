@@ -866,16 +866,9 @@ class DestinationDetailsScreen extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  ElevatedButton(
-                    onPressed: () {
-                      Navigator.of(context).pop();
-                    },
-                    style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.teal[600]),
-                    child: const Text(
-                      'Go Back',
-                      style: TextStyle(color: Colors.white),
-                    ),
+                  GoBackButton(
+                    buttonText: 'Go Back',
+                    action: () => Navigator.pop(context),
                   ),
                   ElevatedButton(
                     onPressed: () {
