@@ -5,7 +5,7 @@ import 'package:aa_travel_planner/features/favorites/repositories/favorites_repo
 import 'package:aa_travel_planner/features/favorites/screens/favorites_screen.dart';
 import 'package:aa_travel_planner/features/settings/screens/__settings_screen_state.dart';
 import 'package:aa_travel_planner/features/trip/repositories/trip_repository.dart';
-import 'package:aa_travel_planner/home_screen.dart';
+import 'package:aa_travel_planner/features/home/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {
